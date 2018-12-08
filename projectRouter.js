@@ -62,7 +62,7 @@ router.delete('/:id', (req, res)=>{
                     res.json(projectToDelete);
                 }
                 else{
-                    res.status(500).json({error: 'The project could not be removed'})
+                    res.status(500).json({error: 'The project could not be removed'});
                 }
             })
         }
